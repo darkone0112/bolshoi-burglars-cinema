@@ -1,8 +1,10 @@
+from django.http import StreamingHttpResponse, HttpResponse
 from django.shortcuts import render
-from django.http import FileResponse, HttpResponse
-import json
-import mimetypes
+from wsgiref.util import FileWrapper
+import re
 import os
+import json
+
 def stream_video(request):
     return render(request, 'stream_video.html')
 
@@ -28,5 +30,27 @@ def play_movie(request, movie_title):
     if movie_path is None:
         return HttpResponse('Movie not found', status=404)
 
-    # Return a FileResponse to stream the movie file
-    return FileResponse(open(movie_path, 'rb'))
+    # Get file size
+    file_size = os.path.getsize(movie_path)
+
+    # Handle ranges
+    start_range = 0
+    end_range = file_size - 1
+    range_header = request.META.get('HTTP_RANGE', '').strip()
+    range_match = re.match(r'bytes=(\d+)-(\d+)?', range_header)
+
+    if range_match:
+        start_range, end_range = map(int, range_match.groups())
+        if end_range is None:
+            end_range = file_size - 1
+
+    # Set headers
+    response = StreamingHttpResponse(
+        FileWrapper(open(movie_path, 'rb'), blksize=8192),
+        status=206 if range_header else 200,
+        content_type='video/mp4'
+    )
+    response['Content-Length'] = str(end_range - start_range + 1)
+    response['Content-Range'] = f"bytes {start_range}-{end_range}/{file_size}"
+
+    return response
