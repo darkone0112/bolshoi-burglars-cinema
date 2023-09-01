@@ -8,7 +8,7 @@ def stream_video(request):
 
 def list_movies(request):
     os.getcwd()
-    with open('../../json/movies.json', 'r') as f:
+    with open('test_bbc/json/movies.json', 'r') as f:
         movies = json.load(f)
     return render(request, 'index.html', {'movies': movies})
 
