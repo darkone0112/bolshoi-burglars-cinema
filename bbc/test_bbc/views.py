@@ -8,13 +8,13 @@ def stream_video(request):
 
 def list_movies(request):
     os.getcwd()
-    with open('test_bbc/json/movies.json', 'r') as f:
+    with open('/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/json/movies.json', 'r') as f:
         movies = json.load(f)
     return render(request, 'index.html', {'movies': movies})
 
 def play_movie(request, movie_title):
     # Assuming you have a JSON file that maps movie titles to file paths
-    with open('../../json/movies.json', 'r') as f:
+    with open('/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/json/movies.json', 'r') as f:
         movies = json.load(f)
 
     # Find the correct movie path
