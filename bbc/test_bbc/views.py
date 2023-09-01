@@ -7,7 +7,7 @@ def stream_video(request):
     return render(request, 'stream_video.html')
 
 def list_movies(request):
-    with open('test_bbc/json/movies.json', 'r') as f:
+    with open('../../test_bbc/json/movies.json', 'r') as f:
         movies = json.load(f)
     return render(request, 'index.html', {'movies': movies})
 
