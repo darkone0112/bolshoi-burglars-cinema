@@ -38,11 +38,13 @@ def play_movie(request, movie_title):
     end_range = file_size - 1
     range_header = request.META.get('HTTP_RANGE', '').strip()
     range_match = re.match(r'bytes=(\d+)-(\d+)?', range_header)
-
+  
     if range_match:
-        start_range, end_range = map(int, range_match.groups())
-        if end_range is None:
-            end_range = file_size - 1
+        start_group, end_group = range_match.groups()
+        if start_group is not None:
+            start_range = int(start_group)
+        if end_group is not None:
+            end_range = int(end_group)
 
     # Set headers
     response = StreamingHttpResponse(
