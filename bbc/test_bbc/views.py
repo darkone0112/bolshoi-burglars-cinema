@@ -37,11 +37,9 @@ def play_movie(request, movie_title):
         logger.error(f"Movie {movie_title} not found.")
         return HttpResponse('Movie not found', status=404)
 
-    # Get file size
     file_size = os.path.getsize(movie_path)
     logger.info(f"File size: {file_size}")
 
-    # Handle ranges
     start_range = 0
     end_range = file_size - 1
     range_header = request.META.get('HTTP_RANGE', '').strip()
@@ -56,14 +54,15 @@ def play_movie(request, movie_title):
 
     logger.info(f"Start range: {start_range}, End range: {end_range}")
 
-    # Set headers and stream the file
-    response = StreamingHttpResponse(
-        FileWrapper(open(movie_path, 'rb'), blksize=105536),  # Updated block size to 64KB
-        status=206 if range_header else 200,
-        content_type='video/mp4'
-    )
-    response['Content-Length'] = str(end_range - start_range + 1)
-    response['Content-Range'] = f"bytes {start_range}-{end_range}/{file_size}"
+    with open(movie_path, 'rb') as f:
+        response = StreamingHttpResponse(
+            FileWrapper(f, blksize=65536 ),
+            status=206 if range_header else 200,
+            content_type='video/mp4'
+        )
+        response['Content-Length'] = str(end_range - start_range + 1)
+        response['Content-Range'] = f"bytes {start_range}-{end_range}/{file_size}"
+        response['Accept-Ranges'] = 'bytes'
 
     logger.info(f"Streaming initiated for {movie_title}")
 
