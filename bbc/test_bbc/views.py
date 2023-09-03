@@ -48,7 +48,7 @@ def play_movie(request, movie_title):
 
     # Set headers
     response = StreamingHttpResponse(
-        FileWrapper(open(movie_path, 'rb'), blksize=8192),
+        FileWrapper(open(movie_path, 'rb'), blksize=65536),
         status=206 if range_header else 200,
         content_type='video/mp4'
     )
