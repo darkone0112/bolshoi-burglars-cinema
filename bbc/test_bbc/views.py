@@ -29,6 +29,22 @@ import logging
 # Initialize logging
 logger = logging.getLogger(__name__)
 
+from django.http import FileResponse, HttpResponse, StreamingHttpResponse
+import os
+import json
+import logging
+
+# Initialize logging
+logger = logging.getLogger(__name__)
+
+from django.http import FileResponse, HttpResponse, StreamingHttpResponse
+import os
+import json
+import logging
+
+# Initialize logging
+logger = logging.getLogger(__name__)
+
 def play_movie(request, movie_title):
     try:
         logger.info(f"Received request to play movie: {movie_title}")
@@ -47,9 +63,23 @@ def play_movie(request, movie_title):
 
         response = FileResponse(open(movie_path, 'rb'), content_type='video/mp4')
 
+        # Explicitly allow range requests
+        response['Accept-Ranges'] = 'bytes'
+
         logger.info(f"Streaming initiated for {movie_title}")
+
+        # Let's log more information for debugging
+        range_header = request.META.get('HTTP_RANGE', '').strip()
+        range_match = re.match(r'bytes=(\d+)-(\d+)?', range_header)
+        if range_match:
+            start, end = range_match.groups()
+            logger.info(f"Range request: start={start}, end={end}")
+        else:
+            logger.info(f"No valid range request found: {range_header}")
+
         return response
 
     except Exception as e:
         logger.error(f"An error occurred while streaming the movie: {str(e)}")
         return HttpResponse('Internal Server Error', status=500)
+
