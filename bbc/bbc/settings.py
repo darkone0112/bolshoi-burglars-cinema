@@ -36,14 +36,24 @@ LOGGING = {
             'filename': '/home/darkone0112/bolshoi-burglars-cinema/bbc/debug.log',
         },
     },
+    'root': {
+        'handlers': ['file'],
+        'level': 'DEBUG',
+    },
     'loggers': {
-        '__name__': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'bbc': {  # Replace this with the name of your app
             'handlers': ['file'],
             'level': 'DEBUG',
             'propagate': True,
         },
     },
 }
+
 
 ALLOWED_HOSTS = ['192.168.1.205']
 
