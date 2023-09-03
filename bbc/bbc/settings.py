@@ -46,7 +46,7 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
-        'bbc': {  # Replace this with the name of your app
+        'test_bbc': {  # Replace this with the name of your app
             'handlers': ['file'],
             'level': 'DEBUG',
             'propagate': True,
