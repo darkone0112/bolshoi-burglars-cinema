@@ -4,6 +4,7 @@ from wsgiref.util import FileWrapper
 import re
 import os
 import json
+import logging
 
 def stream_video(request):
     return render(request, 'stream_video.html')
