@@ -37,29 +37,11 @@ def play_movie(request, movie_title):
         file_size = os.path.getsize(movie_path)
         logger.info(f"File size: {file_size}")
 
-        if 'HTTP_RANGE' in request.META:
-            http_range = request.META['HTTP_RANGE']
-            start_range, end_range = [int(x) for x in http_range.replace('bytes=', '').split('-')]
-            end_range = min(end_range, file_size - 1)
-            response = StreamingHttpResponse(open(movie_path, 'rb'), status=206, content_type='video/mp4')
-            response['Content-Length'] = end_range - start_range + 1
-            response['Content-Range'] = f'bytes {start_range}-{end_range}/{file_size}'
-        else:
-            response = FileResponse(open(movie_path, 'rb'), content_type='video/mp4')
-            response['Content-Length'] = file_size
+        response = FileResponse(open(movie_path, 'rb'), content_type='video/mp4')
 
-        response['Accept-Ranges'] = 'bytes'
         logger.info(f"Streaming initiated for {movie_title}")
 
         return response
-
-    except FileNotFoundError:
-        logger.error(f"File {movie_path} not found.")
-        return HttpResponse('File not found', status=404)
-
-    except PermissionError:
-        logger.error(f"Permission denied for {movie_path}.")
-        return HttpResponse('Permission denied', status=403)
 
     except Exception as e:
         logger.error(f"An error occurred while streaming the movie: {str(e)}")
