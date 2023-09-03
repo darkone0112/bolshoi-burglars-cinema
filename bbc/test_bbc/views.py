@@ -1,6 +1,7 @@
 from django.http import StreamingHttpResponse, HttpResponse
 from django.shortcuts import render
 from wsgiref.util import FileWrapper
+from django.http import FileResponse
 import re
 import os
 import json
@@ -16,6 +17,8 @@ def list_movies(request):
     return render(request, 'index.html', {'movies': movies})
 
 # Initialize logging
+logger = logging.getLogger(__name__)
+
 logger = logging.getLogger(__name__)
 
 def play_movie(request, movie_title):
@@ -34,32 +37,13 @@ def play_movie(request, movie_title):
         file_size = os.path.getsize(movie_path)
         logger.info(f"File size: {file_size}")
 
-        start_range = 0
-        end_range = file_size - 1
-        range_header = request.META.get('HTTP_RANGE', '').strip()
-        range_match = re.match(r'bytes=(\d+)-(\d+)?', range_header)
-
-        if range_match:
-            start_group, end_group = range_match.groups()
-            start_range = int(start_group) if start_group else start_range
-            end_range = int(end_group) if end_group else end_range
-
-        logger.info(f"Start range: {start_range}, End range: {end_range}")
-
-        file_obj = open(movie_path, 'rb')
-        response = StreamingHttpResponse(
-            FileWrapper(file_obj, blksize=65536),
-            status=206 if range_header else 200,
-            content_type='video/mp4'
-        )
-        response['Content-Length'] = str(end_range - start_range + 1)
-        response['Content-Range'] = f"bytes {start_range}-{end_range}/{file_size}"
-        response['Accept-Ranges'] = 'bytes'
+        # FileResponse will automatically handle streaming and range headers
+        response = FileResponse(open(movie_path, 'rb'), content_type='video/mp4')
 
         logger.info(f"Streaming initiated for {movie_title}")
 
         return response
+
     except Exception as e:
         logger.error(f"An error occurred while streaming the movie: {str(e)}")
         return HttpResponse('Internal Server Error', status=500)
-
