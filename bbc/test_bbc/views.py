@@ -40,6 +40,9 @@ def play_movie(request, movie_title):
         # FileResponse will automatically handle streaming and range headers
         response = FileResponse(open(movie_path, 'rb'), content_type='video/mp4')
 
+        # Explicitly allow range requests
+        response['Accept-Ranges'] = 'bytes'
+
         logger.info(f"Streaming initiated for {movie_title}")
 
         return response
