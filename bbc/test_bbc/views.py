@@ -37,10 +37,28 @@ def play_movie(request, movie_title):
         file_size = os.path.getsize(movie_path)
         logger.info(f"File size: {file_size}")
 
-        response = FileResponse(open(movie_path, 'rb'), content_type='video/mp4')
+        range_header = request.META.get('HTTP_RANGE', '').strip()
+        range_match = re.match(r'bytes=(\d+)-(\d+)?', range_header)
+        start_range, end_range = range_match.groups() if range_match else (None, None)
+
+        if start_range:
+            start_range = int(start_range)
+        if end_range:
+            end_range = int(end_range)
+
+        if start_range is not None:
+            response = StreamingHttpResponse(
+                FileWrapper(open(movie_path, 'rb'), blksize=8192),
+                status=206,
+                content_type='video/mp4'
+            )
+            response['Content-Range'] = f'bytes {start_range}-{end_range}/{file_size}'
+            response['Accept-Ranges'] = 'bytes'
+        else:
+            response = FileResponse(open(movie_path, 'rb'), content_type='video/mp4')
+            response['Accept-Ranges'] = 'bytes'
 
         logger.info(f"Streaming initiated for {movie_title}")
-
         return response
 
     except Exception as e:
