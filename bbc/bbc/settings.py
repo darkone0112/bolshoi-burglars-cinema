@@ -33,7 +33,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': 'debug.log',
+            'filename': '/home/darkone0112/bolshoi-burglars-cinema/bbc/debug.log',
         },
     },
     'loggers': {
