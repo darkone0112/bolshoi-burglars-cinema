@@ -40,19 +40,8 @@ LOGGING = {
         'handlers': ['file'],
         'level': 'DEBUG',
     },
-    'loggers': {
-        'django': {
-            'handlers': ['file'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-        'test_bbc': {  # Replace this with the name of your app
-            'handlers': ['file'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-    },
 }
+
 
 
 ALLOWED_HOSTS = ['192.168.1.205']
