@@ -23,15 +23,19 @@ logger = logging.getLogger(__name__)
 
 def play_movie(request, movie_title):
     try:
-        movie_path = f"/path/to/{movie_title}.mp4"
-        
-        if not os.path.exists(movie_path):
+        logger.info(f"Received request to play movie: {movie_title}")
+
+        with open('/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/json/movies.json', 'r') as f:
+            movies = json.load(f)
+
+        movie_path = next((movie['file_path'] for movie in movies if movie['title'] == movie_title), None)
+
+        if movie_path is None:
             logger.error(f"Movie {movie_title} not found.")
             return HttpResponse('Movie not found', status=404)
 
         file_size = os.path.getsize(movie_path)
-        start_range = 0
-        end_range = file_size - 1
+        logger.info(f"File size: {file_size}")
 
         if 'HTTP_RANGE' in request.META:
             http_range = request.META['HTTP_RANGE']
