@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Load the movies JSON file
     async function loadMovies() {
-        const response = await fetch('movies.json');
+        const response = await fetch('/static/movies.json');
         const data = await response.json();
         return data;
     }
