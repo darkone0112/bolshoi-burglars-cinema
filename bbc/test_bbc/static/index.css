@@ -26,7 +26,7 @@
   
   .movies {
     display: grid;
-    grid-gap: 6em 4em;
+    grid-gap: 4em 5em;
     grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
     list-style: none;
     margin: 0;
