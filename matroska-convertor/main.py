@@ -2,81 +2,89 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
 import subprocess
-import os
-import re
-import threading
+import json
+from functools import partial
 
-def update_progress(progress_bar, mp4_file_path):
-    duration = 0
-    process = subprocess.Popen(
-        ['ffmpeg', '-i', mp4_file_path],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE
-    )
-    stdout, stderr = process.communicate()
-    matches = re.search(r"Duration:\s{1}(?P<hours>\d+?):(?P<minutes>\d+?):(?P<seconds>\d+\.\d+?),", stderr.decode('utf-8'), re.DOTALL).groupdict()
+def get_media_tracks(mkv_file_path):
+    cmd = [
+        'ffprobe',
+        '-v', 'quiet',
+        '-print_format', 'json',
+        '-show_streams',
+        mkv_file_path
+    ]
+    result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    data = json.loads(result.stdout)
+
+    audio_tracks = []
+    subtitle_tracks = []
+    for index, stream in enumerate(data['streams']):
+        if stream['codec_type'] == 'audio':
+            audio_tracks.append((index, stream.get('tags', {}).get('language', 'unknown')))
+        elif stream['codec_type'] == 'subtitle':
+            subtitle_tracks.append((index, stream.get('tags', {}).get('language', 'unknown')))
     
-    if matches:
-        duration = float(matches['hours'])*3600 + float(matches['minutes'])*60 + float(matches['seconds'])
+    return audio_tracks, subtitle_tracks
+
+def convert_file(mkv_file_path, audio_var, subtitle_var, preset_var):
+    audio_index = audio_var.get()
+    subtitle_index = subtitle_var.get()
+    preset_value = preset_var.get()
+    mp4_file_path = mkv_file_path.replace('.mkv', '_converted.mp4')
     
-    if duration == 0:
-        print("Could not determine video duration.")
-        return
-
-    process = subprocess.Popen(
-        ['ffmpeg', '-i', mp4_file_path, '-codec', 'copy', '-y', 'output.mp4'],
-        stderr=subprocess.PIPE,
-    )
-
-    regex = re.compile(r"time=(\d+:\d+:\d+\.\d+)")
-
-    while True:
-        line = process.stderr.readline().decode('utf-8')
-        if line == '' and process.poll() is not None:
-            break
-
-        match = regex.search(line)
-        if match:
-            time_str = match.group(1)
-            hours, minutes, seconds = map(float, re.split('[:.]', time_str))
-            elapsed_time = hours * 3600 + minutes * 60 + seconds
-            progress = (elapsed_time / duration) * 100
-            progress_bar['value'] = progress
-
-def convert_mkv_to_mp4(mkv_file_path, progress_bar):
-    mp4_file_path = os.path.splitext(mkv_file_path)[0] + '.mp4'
-    
-    # Start a separate thread to update the progress bar
-    threading.Thread(target=update_progress, args=(progress_bar, mkv_file_path)).start()
-    
-    command = [
+    cmd = [
         'ffmpeg',
         '-i', mkv_file_path,
-        '-codec', 'copy',
+        '-map', '0:v:0',  # This is mapping the first video stream
+        '-map', f'0:{audio_index}',  # This is mapping the audio stream
+        '-map', f'0:{subtitle_index}',  # This is mapping the subtitle stream
+        '-c:v', 'copy',  # This is copying the video codec
+        '-c:a', 'aac',  # This is converting the audio to AAC
+        '-ac', '2',  # This is downmixing audio to stereo
+        '-c:s', 'mov_text',  # This is converting subtitles to mov_text
+        '-preset', preset_value,  # This is using the preset value for encoding
         mp4_file_path
     ]
-    
-    try:
-        subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print(f"Conversion completed: {mkv_file_path} to {mp4_file_path}")
-    except subprocess.CalledProcessError as e:
-        print(f"An error occurred: {e}")
+    subprocess.run(cmd)
 
-def open_file_dialog(progress_bar):
-    file_path = filedialog.askopenfilename(title = "Select MKV file", filetypes = [("MKV files","*.mkv")])
-    
+
+
+def open_file_dialog():
+    file_path = filedialog.askopenfilename(title="Select MKV file", filetypes=[("MKV files", "*.mkv")])
     if not file_path:
         return
+
+    audio_tracks, subtitle_tracks = get_media_tracks(file_path)
+
+    new_window = tk.Toplevel(root)
+    new_window.title("Select Tracks")
     
-    convert_mkv_to_mp4(file_path, progress_bar)
+    ttk.Label(new_window, text="Select an audio track:").pack()
+    
+    audio_var = tk.IntVar()
+    for idx, lang in audio_tracks:
+        ttk.Radiobutton(new_window, text=f"Track {idx} - Language: {lang}", variable=audio_var, value=idx).pack()
+    
+    ttk.Label(new_window, text="Select a subtitle track:").pack()
+    
+    subtitle_var = tk.IntVar()
+    for idx, lang in subtitle_tracks:
+        ttk.Radiobutton(new_window, text=f"Track {idx} - Language: {lang}", variable=subtitle_var, value=idx).pack()
+
+    # Adding a preset dropdown
+    preset_var = tk.StringVar(value='medium')  # Default value
+    ttk.Label(new_window, text="Select a preset:").pack()
+    ttk.OptionMenu(new_window, preset_var, 'ultrafast', 'superfast', 'veryfast', 'faster', 'fast', 'medium', 'slow', 'slower', 'veryslow').pack()
+
+    on_convert = partial(convert_file, file_path, audio_var, subtitle_var, preset_var)
+    
+    ttk.Button(new_window, text="Convert", command=on_convert).pack()
+
 
 root = tk.Tk()
 root.title("MKV to MP4 Converter")
 
-progress_bar = ttk.Progressbar(root, orient='horizontal', mode='determinate', maximum=100)
-progress_bar.pack(fill=tk.X)
-
-openButton = tk.Button(root, text = "Open MKV File", command = lambda: open_file_dialog(progress_bar))
-openButton.pack()
+open_button = ttk.Button(root, text="Open MKV File", command=open_file_dialog)
+open_button.pack()
 
 root.mainloop()
