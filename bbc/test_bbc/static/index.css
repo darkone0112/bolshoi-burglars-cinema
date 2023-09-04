@@ -37,6 +37,7 @@
     position: relative;
     width: 300px;
     height: auto;
+    margin: 15px;
 
   }
   
@@ -44,8 +45,7 @@
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
     margin-bottom: 0.5em;
     width: 300px;
-    height: auto;
-    margin-left: 100px;
+    height: 500px;
   
   }
   
