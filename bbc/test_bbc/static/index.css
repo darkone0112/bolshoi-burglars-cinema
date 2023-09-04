@@ -70,4 +70,25 @@
     font-weight: 400;
     margin: 0;
   }
-
+  .movie__figure:hover {
+    box-shadow: 0 0 2em rgba(255, 255, 255, 0.2);
+}
+.movie__figure:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.movie__poster:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+.movie__figure:hover .movie__poster {
+  opacity: 0.7;
+}
+.movie__figure:hover {
+  box-shadow: 0 0 2em rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.movie__poster:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+  opacity: 0.7;
+}
