@@ -35,6 +35,9 @@
   
   .movie__figure {
     position: relative;
+    width: 300px;
+    height: auto;
+
   }
   
   .movie__poster {
@@ -63,3 +66,4 @@
     font-weight: 400;
     margin: 0;
   }
+

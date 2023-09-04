@@ -26,10 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
             htmlString += `
                 <li class="movie">
                     <figure class="movie__figure">
-                        <img src="${movie.image}" class="movie__poster">
-                        <figcaption>
-                            <a href="play_movie/${movie.title}">${movie.title}</a>
-                        </figcaption>
+                        <a play_movie/${movie.title}><img src="${movie.image}" class="movie__poster"></a>
                     </figure>
                 </li>
             `;
