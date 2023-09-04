@@ -26,11 +26,14 @@ document.addEventListener("DOMContentLoaded", function() {
             htmlString += `
                 <li class="movie">
                     <figure class="movie__figure">
-                        <a play_movie/${movie.title}><img src="${movie.image}" class="movie__poster"></a>
+                        <a href="/play_movie/${movie.title}">
+                            <img src="${movie.image}" class="movie__poster">
+                        </a>
                     </figure>
                 </li>
             `;
         });
+        
 
         movieList.innerHTML = htmlString;
     }
