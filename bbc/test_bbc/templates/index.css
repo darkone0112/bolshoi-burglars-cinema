@@ -1,18 +1,65 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #000;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #3a4f5b;
     color: #fff;
-}
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.movie-card {
-    width: 200px;
-}
-.movie-card img {
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .search {
+    font-size: 1.5rem;
+    margin: 1.5em auto 3em;
+    max-width: 80%;
+  }
+  
+  .search input[type='search'] {
+    background-color: #131b20;
+    color: #fff;
+    padding: 0.5em 2em;
+    text-align: center;
     width: 100%;
-    height: auto;
-}
+  }
+  
+  .movies {
+    display: grid;
+    grid-gap: 3em 2em;
+    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .movie__figure {
+    position: relative;
+  }
+  
+  .movie__poster {
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.5em;
+  }
+  
+  .movie__vote {
+    align-items: center;
+    background-color: #f68d01;
+    border-radius: 50%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+    display: flex;
+    height: 2.25em;
+    justify-content: center;
+    padding: 0.5em;
+    position: absolute;
+    right: 0;
+    top: 75%;
+    transform: translateX(50%);
+    width: 2.25em;
+  }
+  
+  .movie__title {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0;
+  }

@@ -4,14 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Welcome to Bolshoi Burglars Cinema</h1>
-    <p>Choose a movie from the list below:</p>
-    <ul>
-        {% for movie in movies %}
-            <li><a href="{% url 'play_movie' movie.title %}">{{ movie.title }}</a></li>
-        {% endfor %}
-    </ul>
+    <div class="app">
+        <form class="search">
+            <input type="search" id="movieQuery" placeholder="Search for Movie Title …">
+        </form>
+        <ul class="movies">
+            <!-- Movie list goes here -->
+        </ul>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
+<!--{% comment %} {% for movie in movies %}
+<li><a href="{% url 'play_movie' movie.title %}">{{ movie.title }}</a></li>
+{% endfor %} {% endcomment %}-->
