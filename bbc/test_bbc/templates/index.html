@@ -1,10 +1,12 @@
+{% load static %}
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'index.css' %}">
+    
 </head>
 <body>
     <div class="app">
@@ -15,8 +17,7 @@
             <!-- Movie list goes here -->
         </ul>
     </div>
-
-    <script src="index.js"></script>
+    <script src="{% static 'index.js' %}"></script>
 </body>
 </html>
 <!--{% comment %} {% for movie in movies %}
