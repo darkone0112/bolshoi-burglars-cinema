@@ -134,7 +134,7 @@ def upload_movie(request):
                     destination.write(chunk)
 
             # Update the JSON file
-            with open('path_to_your_json_file.json', 'r+') as json_file:
+            with open('movies.json', 'r+') as json_file:
                 data = json.load(json_file)
                 data['movies'].append({
                     'title': movie_name,
