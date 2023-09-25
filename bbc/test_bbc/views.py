@@ -134,7 +134,7 @@ def upload_movie(request):
                     destination.write(chunk)
 
             # Update the JSON file
-            with open('movies.json', 'r+') as json_file:
+            with open('/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/json', 'r+') as json_file:
                 data = json.load(json_file)
                 data['movies'].append({
                     'title': movie_name,
