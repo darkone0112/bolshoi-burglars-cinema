@@ -163,7 +163,7 @@ def upload_movie(request):
             update_json_file('/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/json/movies.json', movie_name, file_path)
             
             # Update the second JSON file (use the correct path)
-            update_json_file('/path/to/your/second/json/file.json', movie_name, file_path)
+            update_json_file('/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/static/movies.json', movie_name, file_path)
 
             # Redirect to a success page or the home page
             return redirect('list_movies')
