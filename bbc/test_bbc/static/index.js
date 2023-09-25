@@ -43,3 +43,16 @@ document.addEventListener("DOMContentLoaded", function() {
         displayMovies(movies);
     });
 });
+
+// Toggle sidebar
+const burgerMenu = document.querySelector('.burger-menu');
+const sidebar = document.querySelector('.sidebar');
+
+burgerMenu.addEventListener('click', () => {
+    if (sidebar.style.width === '0px' || sidebar.style.width === '') {
+        sidebar.style.width = '250px';
+    } else {
+        sidebar.style.width = '0px';
+    }
+});
+

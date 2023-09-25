@@ -6,6 +6,8 @@ import re
 import os
 import json
 import logging
+from django.shortcuts import render, redirect
+from .forms import MovieUploadForm
 
 def stream_video(request):
     return render(request, 'stream_video.html')
@@ -111,4 +113,41 @@ def play_movie(request, movie_title):
     except Exception as e:
         logger.error(f"An error occurred while streaming the movie: {str(e)}")
         return HttpResponse('Internal Server Error', status=500)
+
+
+def upload_movie(request):
+    if request.method == 'POST':
+        form = MovieUploadForm(request.POST, request.FILES)
+        if form.is_valid():
+            # Save the uploaded movie file
+            movie_name = form.cleaned_data['title']
+            file_name = request.FILES['movie_file'].name
+            folder_path = os.path.join('/mnt', movie_name)
+            file_path = os.path.join(folder_path, file_name)
+            
+            # Ensure the folder exists
+            if not os.path.exists(folder_path):
+                os.makedirs(folder_path)
+
+            with open(file_path, 'wb+') as destination:
+                for chunk in request.FILES['movie_file'].chunks():
+                    destination.write(chunk)
+
+            # Update the JSON file
+            with open('path_to_your_json_file.json', 'r+') as json_file:
+                data = json.load(json_file)
+                data['movies'].append({
+                    'title': movie_name,
+                    'poster': form.cleaned_data['image_url'],
+                    'file_path': file_path
+                })
+                json_file.seek(0)
+                json.dump(data, json_file, indent=4)
+                json_file.truncate()
+
+            # Redirect to a success page or the home page
+            return redirect('home')
+    else:
+        form = MovieUploadForm()
+    return render(request, 'upload.html', {'form': form})
 

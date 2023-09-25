@@ -17,6 +17,18 @@
             <!-- Movie list goes here -->
         </ul>
     </div>
+    <div class="burger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    
+    <!-- This is the sidebar that will slide in -->
+    <div class="sidebar">
+        <a href="{% url 'upload_movie' %}">Add New Movie</a>
+        <!-- Add more links as needed -->
+    </div>
+    
     <script src="{% static 'index.js' %}"></script>
 </body>
 </html>

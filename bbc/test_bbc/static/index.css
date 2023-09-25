@@ -95,3 +95,48 @@
   transition: transform 0.2s ease;
   opacity: 0.7;
 }
+
+/* Burger Menu */
+.burger-menu {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  cursor: pointer;
+  z-index: 10; /* Ensure it's above other elements */
+}
+
+.bar {
+  background-color: #fff;
+  height: 4px;
+  width: 25px;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #3a4f5b;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding-top: 60px;
+  z-index: 5; /* Ensure it's below the burger menu */
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
