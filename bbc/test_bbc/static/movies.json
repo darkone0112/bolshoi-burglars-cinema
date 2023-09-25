@@ -1,63 +1,317 @@
 [
-    {"title":"The.Lord.Of.The.Rings-.The.Fellowship.Of.The.Ring","file_path":"/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2001.The.Lord.Of.The.Rings-.The.Fellowship.Of.The.Ring.[Extended.Cut].1920x800.BDRip.x264.DTS-HD.MA_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg"},
-    {"title":"LOTR 2","file_path":"/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2002.The.Lord.Of.The.Rings-.The.Two.Towers.[Extended.Cut].1920x804.BDRip.x264.DTS-HD.MA_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"},
-    {"title":"LOTR 3","file_path":"/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2003.The.Lord.Of.The.Rings-.The.Return.Of.The.King.[Extended.Cut].1920x796.BDRip.x264.DTS-HD.MA_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"},
-    {"title":"Hobbit 1","file_path":"/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2012.The.Hobbit-.An.Unexpected.Journey.[Extended.Cut].1920x800.BDRip.x264.DTS-HD.MA_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Hobbit 2","file_path":"/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2013.The.Hobbit-.The.Desolation.Of.Smaug.[Extended.Cut].1920x800.BDRip.x264.DTS-HD.MA_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_.jpg"},
-    {"title":"Hobbit 3","file_path":"/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2014.The.Hobbit-.The.Battle.Of.The.Five.Armies.[Extended.Cut].1920x800.BDRip.x264.DTS-HD.MA_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BMTQ2NTc3NjIwMl5BMl5BanBnXkFtZTgwNDcwNzcyMjE@._V1_.jpg"},
-    {"title": "Django Unchained", "file_path": "/home/darkone0112/Django Unchained (2012) [1080p]/Django.Unchained.2012.1080p.BluRay.x264.YIFY.mp4","image": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"},
-    {"title": "Forrest Gump", "file_path": "/mnt/Forrest Gump (1994) [1080p]/Forrest.Gump.1994.1080p.BrRip.x264.YIFY.mp4", "image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"},
-    {"title": "Inglourious Basterds", "file_path": "/mnt/inglorious bastards/Inglourious.Basterds.2009.4K.HDR10+.2160p.BluRay Ita Eng x265-NAHOM_converted.mp4", "image": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Kill Bill Volume-1","file_path":"/mnt/Kill Bill/Kill Bill Volume-1 (2003) 1080p Blu-Ray x264 DTSHD 5.1 -DDR_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Kill Bill Volume-2","file_path":"/mnt/Kill Bill/Kill Bill Volume-2 (2004) 1080p Blu-Ray x264 DTSHD 5.1 -DDR_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BODAxMmIxNjMtMzdmYi00YmZmLTg5M2ItODdiNDIzNTdmNjQxXkEyXkFqcGdeQXVyMDAwMDAwNA@@._V1_.jpg"},
-    {"title":"pulp fiction","file_path":"/mnt/pulp fiction/Pulp Fiction (1994) [1080p x265 HEVC 10bit BluRay DTS-HD MA 5.1] [Prof]_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"},
-    {"title":"The Hateful Eight", "file_path":"/mnt/The Hateful Eight/The.Hateful.Eight.2015.2160p.REMUX DCPRip.Eng -DDR_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Reservoir Dogs", "file_path":"/mnt/Reservoir Dogs (Tarentino) 1992  Bluray 1080p x264 DTSHD 5.1 -DTOne/Reservoir Dogs 1992  Bluray 1080p x264 DTSHD 5.1 -DTOne_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Jackie Brown", "file_path":"/mnt/Jackie Brown (1997) (1080p BluRay x265 HEVC 10bit AAC 5.1 RZeroX)/Jackie Brown (1997) (1080p BluRay x265 RZeroX)_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNmY5ODRmYTItNWU0Ni00MWE3LTgyYzUtYjZlN2Q5YTcyM2NmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"},
-    {"title":"Once.Upon.a.Time.in.Hollywood", "file_path":"/mnt/Once.Upon.a.Time.in.Hollywood.2019.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT/Once.Upon.a.Time.in.Hollywood.2019.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_QL75_UX190_CR0,0,190,281_.jpg"},
-    {"title":"Harry Potter 1", "file_path":"/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 1/2001.Harry.Potter.And.The.Philosopher's.Stone.1920x796.BDRip.x264.TrueHD_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Harry Potter 2", "file_path":"/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 2/Harry Potter and the Chamber of Secrets 2002 Ultimate Extended Edition 1080p Blu-ray Multisub Remux VC-1 DTS-HD MA 5.1 - KRaLiMaRKo_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_.jpg"},
-    {"title":"Harry Potter 3", "file_path":"/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 3/Harry Potter and the Prisoner of Azkaban 2004 1080p Blu-ray Multisub Remux VC-1 LPCM 5.1 - KRaLiMaRKo_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_.jpg"},
-    {"title":"Harry Potter 4", "file_path":"/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 4/Harry Potter and the Goblet of Fire 2005 1080p Blu-ray Multisub Remux VC-1 LPCM 5.1 - KRaLiMaRKo_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_.jpg"},
-    {"title":"Harry Potter 5", "file_path":"/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 5/Harry Potter and the Order of the Phoenix 2007 1080p Blu-ray Multisub Remux VC-1 LPCM 5.1 - KRaLiMaRKo_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BOTA3MmRmZDgtOWU1Ny00ZDc5LWFkN2YtNzNlY2UxZmY0N2IyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg"},
-    {"title":"Harry Potter 6", "file_path":"/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 6/Harry Potter and the Half-Blood Prince 2009 1080p Blu-ray Multisub Remux VC-1 TrueHD 5.1 - KRaLiMaRKo_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BYTJhZDk4NGQtNTM3Ny00ODg0LThlNDktY2U1MjZmMDdhMWNkXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg"},
-    {"title":"Harry Potter 7", "file_path":"/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 7/Harry Potter and the Deathly Hallows - Part 1 2010 1080p Blu-ray Remux AVC DTS-HD MA 5.1 - KRaLiMaRKo_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_.jpg"},
-    {"title":"Harry Potter 8", "file_path":"/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 8/Harry Potter and the Deathly Hallows - Part 2 2011 1080p Blu-ray Multisub Remux AVC DTS-HD MA 5.1 - KRaLiMaRKo_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"fantastic beasts 1 ", "file_path":"/mnt/Fantastic Beasts and Where to Find Them 2016 Multi 2160p UHD BluRay HEVC HDR Atmos7.1-DDR/Fantastic Beasts and Where to Find Them 2016 Multi 2160p UHD BluRay HEVC HDR Atmos7.1-DDR_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BZWNjOGY1YzAtYzQ2My00NTY1LWE4NmMtYzg3M2Y1ZTVjYTM1XkEyXkFqcGdeQXVyODA1NjQ0OTY@._V1_.jpg"},
-    {"title":"fantastic beasts 2 ", "file_path":"/mnt/Fantastic.Beasts.The.Crimes.Of.Grindelwald.2018.BluRay.1080p.x264.Atmos.TrueHD.7.1-HDChina/Fantastic.Beasts.The.Crimes.Of.Grindelwald.2018.BluRay.1080p.x264.Atmos.TrueHD.7.1-HDChina_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNTkwYWEzZWUtY2QxYS00OWM1LTlhN2QtNmE0M2JmNmI2ODc3XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg"},
-    {"title": "Troy", "file_path": "/mnt/Troy/Troy (2004) DC (1080p BluRay x265 10bit Tigole).mp4", "image": "https://m.media-amazon.com/images/M/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Blade Runner 2049", "file_path":"/mnt/Blade Runner 2049 (2017) [2160p] [4K] [BluRay] [5.1] [YTS.MX]/Blade.Runner.2049.2017.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX]_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Blade Runner 1982", "file_path":"/mnt/Blade.Runner.1982.The.Final.Cut.PROPER.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT/Blade.Runner.1982.The.Final.Cut.PROPER.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"},
-    {"title":"Enemy At The Gates", "file_path":"/mnt/Enemy At The Gates (2001) [1080p]/Enemy.At.The.Gates.2001.1080p.BrRip.x264.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BYWFlY2E3ODQtZWNiNi00ZGU4LTkzNWEtZTQ2ZTViMWRhYjIzL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Jaws", "file_path":"/mnt/Jaws (1975) [1080p]/Jaws.1975.1080p.BrRip.x264.bitloks.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"},
-    {"title":"Pearl Harbor", "file_path":"/mnt/Pearl Harbor (2001)/Pearl Harbor 2001 Directors Cut.720p.BrRip.x264.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMTQyOTEzNjYzMF5BMl5BanBnXkFtZTcwMzUzOTYzMQ@@._V1_.jpg"},
-    {"title":"Rango", "file_path":"/mnt/Rango.2011.EXTENDED.1080p.BluRay.H264.AAC-RARBG/Rango.2011.EXTENDED.1080p.BluRay.H264.AAC-RARBG.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMTc4NjEyODE1OV5BMl5BanBnXkFtZTcwMjYzNTkxNA@@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Saving Private Ryan", "file_path":"/mnt/Saving Private Ryan (1998) [1080p]/Saving.Private.Ryan.1998.1080p.BrRip.x264.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Scarface", "file_path":"/mnt/Scarface (1983) [1080p]/Scarface.1983.1080p.BRrip.x264.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"},
-    {"title":"The Dark Knight Rises", "file_path":"/mnt/The Dark Knight Rises (2012) [1080p]/The.Dark.Knight.Rises.2012.1080p.BluRay.x264.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"The Godfather", "file_path":"/mnt/The Godfather (1972) [1080p]/The.Godfather.1972.1080p.BrRip.x264.BOKUTOX.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"},
-    {"title":"The Godfather Part 2", "file_path":"/mnt/The Godfather Part 2 (1974)/The.Godfather.Part.2.1974.720p.BrRip.x264.BOKUTOX.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"},
-    {"title":"The Godfather Part 3", "file_path":"/mnt/The Godfather Part 3 (1990) [1080p]/The.Godfather.Part.3.1990.1080p.BrRip.x264.BOKUTOX.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNWFlYWY2YjYtNjdhNi00MzVlLTg2MTMtMWExNzg4NmM5NmEzXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_.jpg"},
-    {"title":"The Matrix", "file_path":"/mnt/The Matrix (1999) [1080p]/The.Matrix.1999.1080p.BrRip.x264.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"},
-    {"title":"The Wolf of Wall Street", "file_path":"/mnt/The Wolf of Wall Street (2013) [1080p]/The.Wolf.of.Wall.Street.2013.1080p.BluRay.x264.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"The Lighthouse", "file_path":"/mnt/The.Lighthouse.2019.1080p.Bluray.DTS-HD.MA.5.1.X264-EVO[TGx]/The.Lighthouse.2019.1080p.Bluray.DTS-HD.MA.5.1.X264-EVO_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"},
-    {"title":"To Kill a Mockingbird", "file_path":"/mnt/To Kill a Mockingbird (1962)/To.Kill.a.Mockingbird.1962.720p.BrRip.264.YIFY.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"},
-    {"title":"Joker", "file_path":"/mnt/Joker 2019 UHD 4K BluRay 2160p DoVi HDR10 TrueHD 7.1 Atmos H.265-MgB/Joker 2019 UHD 4K BluRay 2160p DoVi HDR10 TrueHD 7.1 Atmos H.265-MgB_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"},
-    {"title":"Kingdom of Heaven", "file_path":"/mnt/Kingdom of Heaven (2005) DC Roadshow (1080p BluRay x265 HEVC 10bit AAC 5.1 Tigole)/Kingdom of Heaven (2005) DC Roadshow (1080p BluRay x265 10bit Tigole)_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMGNhMTY2ZTMtMjgyZC00YzcwLTlmYmEtYmNiMGJkZjRlNzBjXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg"},
-    {"title":"interstellar","file_path":"/mnt/interstellar/Interstellar.2014.UHD.BluRay.2160p.x265.HDR.DTS-HDMA.5.1-DTOne_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"},
-    {"title":"300","file_path":"/mnt/300 (2006) (2160p BluRay x265 HEVC 10bit HDR AAC 7.1 Tigole)/300 (2006) (2160p BluRay x265 10bit HDR Tigole)_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Citizen Kane","file_path":"/mnt/Citizen Kane (1941) Criterion (1080p BluRay x265 HEVC 10bit AAC 1.0 Tigole)/Citizen Kane (1941) Criterion (1080p BluRay x265 10bit Tigole)_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Dont Look Up","file_path":"/mnt/Dont Look Up/Don.t.Look.Up.2021.iTA-ENG.WEBDL.2160p.HDR.x265-CYBER_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BZjcwZjY3NjAtNzkxZS00NmFjLTg1OGYtODJmMThhY2UwMTc5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Gladiator","file_path":"/mnt/Gladiator.2000.EXTENDED.2160p.UHD.BluRay.X265-IAMABLE/Gladiator.2000.EXTENDED.2160p.UHD.BluRay.X265-IAMABLE_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"1917","file_path":"/mnt/1917.2019.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ/1917.2019.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ_converted.mp4","image":"https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg"},
-    {"title":"All.Quiet.on.the.Western.Front", "file_path":"/mnt/All.Quiet.on.the.Western.Front.2022.GERMAN.1080p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF/All.Quiet.on.the.Western.Front.2022.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-SMURF_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMzM4ZDJhYjYtZGY5Ny00NTk0LWI4ZTYtNjczZDFiMGI2ZjEzXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Fury", "file_path":"/mnt/Fury.2014.Multi.UHD.Bluray.2160p.x265.HDR.Atmos.7.1-DTOne/Fury.2014.Multi.UHD.Bluray.2160p.x265.HDR.Atmos.7.1-DTOne_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMjA4MDU0NTUyN15BMl5BanBnXkFtZTgwMzQxMzY4MjE@._V1_.jpg"},
-    {"title":"2001.A.Space.Odyssey", "file_path":"/mnt/2001.A.Space.Odyssey.1968.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT/2001.A.Space.Odyssey.1968.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"},
-    {"title":"American.History.X", "file_path":"/mnt/American.History.X.1998.PROPER.1080p.BluRay.x264-SADPANDA[rarbg]/American.History.X.1998.PROPER.1080p.BluRay.x264-SADPANDA_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BZTJhN2FkYWEtMGI0My00YWM4LWI2MjAtM2UwNjY4MTI2ZTQyXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg"},
-    {"title":"American.Psycho", "file_path":"/mnt/American.Psycho.2000.UNCUT.2160p.UHD.BluRay.x265-WhiteRhino/American.Psycho.2000.UNCUT.2160p.UHD.BluRay.x265-WhiteRhino_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"},
-    {"title":"Clockwork Orange", "file_path":"/mnt/Clockwork Orange (Remux)/Clockwork Orange (Remux)_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_.jpg"},
-    {"title":"The.Silence.of.the.Lambs", "file_path":"/mnt/The.Silence.of.the.Lambs.1991.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"},
-    {"title":"Fight Club", "file_path":"/mnt/Fight Club.1999.BDRip.2160p.UHD.SDR.Eng.DTS-HD.MA.DD5.1.gerald99/Movie and Sample/Fight Club_converted.mp4", "image":"https://m.media-amazon.com/images/M/MV5BODQ0OWJiMzktYjNlYi00MzcwLThlZWMtMzRkYTY4ZDgxNzgxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"},
-    {"title":"", "file_path":"/mnt/", "image":""}
-    
+    {
+        "title": "The.Lord.Of.The.Rings-.The.Fellowship.Of.The.Ring",
+        "file_path": "/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2001.The.Lord.Of.The.Rings-.The.Fellowship.Of.The.Ring.[Extended.Cut].1920x800.BDRip.x264.DTS-HD.MA_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg"
+    },
+    {
+        "title": "LOTR 2",
+        "file_path": "/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2002.The.Lord.Of.The.Rings-.The.Two.Towers.[Extended.Cut].1920x804.BDRip.x264.DTS-HD.MA_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    },
+    {
+        "title": "LOTR 3",
+        "file_path": "/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2003.The.Lord.Of.The.Rings-.The.Return.Of.The.King.[Extended.Cut].1920x796.BDRip.x264.DTS-HD.MA_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+        "title": "Hobbit 1",
+        "file_path": "/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2012.The.Hobbit-.An.Unexpected.Journey.[Extended.Cut].1920x800.BDRip.x264.DTS-HD.MA_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Hobbit 2",
+        "file_path": "/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2013.The.Hobbit-.The.Desolation.Of.Smaug.[Extended.Cut].1920x800.BDRip.x264.DTS-HD.MA_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzU0NDY0NDEzNV5BMl5BanBnXkFtZTgwOTIxNDU1MDE@._V1_.jpg"
+    },
+    {
+        "title": "Hobbit 3",
+        "file_path": "/mnt/The Lord Of The Rings + The Hobbit Collection [Extended Cuts] (2001-2014)/2014.The.Hobbit-.The.Battle.Of.The.Five.Armies.[Extended.Cut].1920x800.BDRip.x264.DTS-HD.MA_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQ2NTc3NjIwMl5BMl5BanBnXkFtZTgwNDcwNzcyMjE@._V1_.jpg"
+    },
+    {
+        "title": "Django Unchained",
+        "file_path": "/home/darkone0112/Django Unchained (2012) [1080p]/Django.Unchained.2012.1080p.BluRay.x264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg"
+    },
+    {
+        "title": "Forrest Gump",
+        "file_path": "/mnt/Forrest Gump (1994) [1080p]/Forrest.Gump.1994.1080p.BrRip.x264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+    },
+    {
+        "title": "Inglourious Basterds",
+        "file_path": "/mnt/inglorious bastards/Inglourious.Basterds.2009.4K.HDR10+.2160p.BluRay Ita Eng x265-NAHOM_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Kill Bill Volume-1",
+        "file_path": "/mnt/Kill Bill/Kill Bill Volume-1 (2003) 1080p Blu-Ray x264 DTSHD 5.1 -DDR_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Kill Bill Volume-2",
+        "file_path": "/mnt/Kill Bill/Kill Bill Volume-2 (2004) 1080p Blu-Ray x264 DTSHD 5.1 -DDR_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BODAxMmIxNjMtMzdmYi00YmZmLTg5M2ItODdiNDIzNTdmNjQxXkEyXkFqcGdeQXVyMDAwMDAwNA@@._V1_.jpg"
+    },
+    {
+        "title": "pulp fiction",
+        "file_path": "/mnt/pulp fiction/Pulp Fiction (1994) [1080p x265 HEVC 10bit BluRay DTS-HD MA 5.1] [Prof]_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+        "title": "The Hateful Eight",
+        "file_path": "/mnt/The Hateful Eight/The.Hateful.Eight.2015.2160p.REMUX DCPRip.Eng -DDR_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Reservoir Dogs",
+        "file_path": "/mnt/Reservoir Dogs (Tarentino) 1992  Bluray 1080p x264 DTSHD 5.1 -DTOne/Reservoir Dogs 1992  Bluray 1080p x264 DTSHD 5.1 -DTOne_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Jackie Brown",
+        "file_path": "/mnt/Jackie Brown (1997) (1080p BluRay x265 HEVC 10bit AAC 5.1 RZeroX)/Jackie Brown (1997) (1080p BluRay x265 RZeroX)_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNmY5ODRmYTItNWU0Ni00MWE3LTgyYzUtYjZlN2Q5YTcyM2NmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    },
+    {
+        "title": "Once.Upon.a.Time.in.Hollywood",
+        "file_path": "/mnt/Once.Upon.a.Time.in.Hollywood.2019.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT/Once.Upon.a.Time.in.Hollywood.2019.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.7.1-FGT_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_QL75_UX190_CR0,0,190,281_.jpg"
+    },
+    {
+        "title": "Harry Potter 1",
+        "file_path": "/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 1/2001.Harry.Potter.And.The.Philosopher's.Stone.1920x796.BDRip.x264.TrueHD_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNmQ0ODBhMjUtNDRhOC00MGQzLTk5MTAtZDliODg5NmU5MjZhXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Harry Potter 2",
+        "file_path": "/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 2/Harry Potter and the Chamber of Secrets 2002 Ultimate Extended Edition 1080p Blu-ray Multisub Remux VC-1 DTS-HD MA 5.1 - KRaLiMaRKo_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_.jpg"
+    },
+    {
+        "title": "Harry Potter 3",
+        "file_path": "/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 3/Harry Potter and the Prisoner of Azkaban 2004 1080p Blu-ray Multisub Remux VC-1 LPCM 5.1 - KRaLiMaRKo_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_.jpg"
+    },
+    {
+        "title": "Harry Potter 4",
+        "file_path": "/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 4/Harry Potter and the Goblet of Fire 2005 1080p Blu-ray Multisub Remux VC-1 LPCM 5.1 - KRaLiMaRKo_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_.jpg"
+    },
+    {
+        "title": "Harry Potter 5",
+        "file_path": "/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 5/Harry Potter and the Order of the Phoenix 2007 1080p Blu-ray Multisub Remux VC-1 LPCM 5.1 - KRaLiMaRKo_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTA3MmRmZDgtOWU1Ny00ZDc5LWFkN2YtNzNlY2UxZmY0N2IyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg"
+    },
+    {
+        "title": "Harry Potter 6",
+        "file_path": "/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 6/Harry Potter and the Half-Blood Prince 2009 1080p Blu-ray Multisub Remux VC-1 TrueHD 5.1 - KRaLiMaRKo_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTJhZDk4NGQtNTM3Ny00ODg0LThlNDktY2U1MjZmMDdhMWNkXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg"
+    },
+    {
+        "title": "Harry Potter 7",
+        "file_path": "/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 7/Harry Potter and the Deathly Hallows - Part 1 2010 1080p Blu-ray Remux AVC DTS-HD MA 5.1 - KRaLiMaRKo_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_.jpg"
+    },
+    {
+        "title": "Harry Potter 8",
+        "file_path": "/mnt/Harry Potter - The Ultimate Collection 2001-2011 1080p Blu-ray Multisub Remux - KRaLiMaRKo/Harry Potter 8/Harry Potter and the Deathly Hallows - Part 2 2011 1080p Blu-ray Multisub Remux AVC DTS-HD MA 5.1 - KRaLiMaRKo_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "fantastic beasts 1 ",
+        "file_path": "/mnt/Fantastic Beasts and Where to Find Them 2016 Multi 2160p UHD BluRay HEVC HDR Atmos7.1-DDR/Fantastic Beasts and Where to Find Them 2016 Multi 2160p UHD BluRay HEVC HDR Atmos7.1-DDR_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BZWNjOGY1YzAtYzQ2My00NTY1LWE4NmMtYzg3M2Y1ZTVjYTM1XkEyXkFqcGdeQXVyODA1NjQ0OTY@._V1_.jpg"
+    },
+    {
+        "title": "fantastic beasts 2 ",
+        "file_path": "/mnt/Fantastic.Beasts.The.Crimes.Of.Grindelwald.2018.BluRay.1080p.x264.Atmos.TrueHD.7.1-HDChina/Fantastic.Beasts.The.Crimes.Of.Grindelwald.2018.BluRay.1080p.x264.Atmos.TrueHD.7.1-HDChina_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNTkwYWEzZWUtY2QxYS00OWM1LTlhN2QtNmE0M2JmNmI2ODc3XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg"
+    },
+    {
+        "title": "Troy",
+        "file_path": "/mnt/Troy/Troy (2004) DC (1080p BluRay x265 10bit Tigole).mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTk5MzU1MDMwMF5BMl5BanBnXkFtZTcwNjczODMzMw@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Blade Runner 2049",
+        "file_path": "/mnt/Blade Runner 2049 (2017) [2160p] [4K] [BluRay] [5.1] [YTS.MX]/Blade.Runner.2049.2017.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX]_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Blade Runner 1982",
+        "file_path": "/mnt/Blade.Runner.1982.The.Final.Cut.PROPER.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT/Blade.Runner.1982.The.Final.Cut.PROPER.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    },
+    {
+        "title": "Enemy At The Gates",
+        "file_path": "/mnt/Enemy At The Gates (2001) [1080p]/Enemy.At.The.Gates.2001.1080p.BrRip.x264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BYWFlY2E3ODQtZWNiNi00ZGU4LTkzNWEtZTQ2ZTViMWRhYjIzL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Jaws",
+        "file_path": "/mnt/Jaws (1975) [1080p]/Jaws.1975.1080p.BrRip.x264.bitloks.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+    },
+    {
+        "title": "Pearl Harbor",
+        "file_path": "/mnt/Pearl Harbor (2001)/Pearl Harbor 2001 Directors Cut.720p.BrRip.x264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTQyOTEzNjYzMF5BMl5BanBnXkFtZTcwMzUzOTYzMQ@@._V1_.jpg"
+    },
+    {
+        "title": "Rango",
+        "file_path": "/mnt/Rango.2011.EXTENDED.1080p.BluRay.H264.AAC-RARBG/Rango.2011.EXTENDED.1080p.BluRay.H264.AAC-RARBG.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTc4NjEyODE1OV5BMl5BanBnXkFtZTcwMjYzNTkxNA@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Saving Private Ryan",
+        "file_path": "/mnt/Saving Private Ryan (1998) [1080p]/Saving.Private.Ryan.1998.1080p.BrRip.x264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Scarface",
+        "file_path": "/mnt/Scarface (1983) [1080p]/Scarface.1983.1080p.BRrip.x264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    },
+    {
+        "title": "The Dark Knight Rises",
+        "file_path": "/mnt/The Dark Knight Rises (2012) [1080p]/The.Dark.Knight.Rises.2012.1080p.BluRay.x264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "The Godfather",
+        "file_path": "/mnt/The Godfather (1972) [1080p]/The.Godfather.1972.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+        "title": "The Godfather Part 2",
+        "file_path": "/mnt/The Godfather Part 2 (1974)/The.Godfather.Part.2.1974.720p.BrRip.x264.BOKUTOX.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+        "title": "The Godfather Part 3",
+        "file_path": "/mnt/The Godfather Part 3 (1990) [1080p]/The.Godfather.Part.3.1990.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNWFlYWY2YjYtNjdhNi00MzVlLTg2MTMtMWExNzg4NmM5NmEzXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_.jpg"
+    },
+    {
+        "title": "The Matrix",
+        "file_path": "/mnt/The Matrix (1999) [1080p]/The.Matrix.1999.1080p.BrRip.x264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    },
+    {
+        "title": "The Wolf of Wall Street",
+        "file_path": "/mnt/The Wolf of Wall Street (2013) [1080p]/The.Wolf.of.Wall.Street.2013.1080p.BluRay.x264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "The Lighthouse",
+        "file_path": "/mnt/The.Lighthouse.2019.1080p.Bluray.DTS-HD.MA.5.1.X264-EVO[TGx]/The.Lighthouse.2019.1080p.Bluray.DTS-HD.MA.5.1.X264-EVO_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "file_path": "/mnt/To Kill a Mockingbird (1962)/To.Kill.a.Mockingbird.1962.720p.BrRip.264.YIFY.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+        "title": "Joker",
+        "file_path": "/mnt/Joker 2019 UHD 4K BluRay 2160p DoVi HDR10 TrueHD 7.1 Atmos H.265-MgB/Joker 2019 UHD 4K BluRay 2160p DoVi HDR10 TrueHD 7.1 Atmos H.265-MgB_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+    },
+    {
+        "title": "Kingdom of Heaven",
+        "file_path": "/mnt/Kingdom of Heaven (2005) DC Roadshow (1080p BluRay x265 HEVC 10bit AAC 5.1 Tigole)/Kingdom of Heaven (2005) DC Roadshow (1080p BluRay x265 10bit Tigole)_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMGNhMTY2ZTMtMjgyZC00YzcwLTlmYmEtYmNiMGJkZjRlNzBjXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg"
+    },
+    {
+        "title": "interstellar",
+        "file_path": "/mnt/interstellar/Interstellar.2014.UHD.BluRay.2160p.x265.HDR.DTS-HDMA.5.1-DTOne_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+    },
+    {
+        "title": "300",
+        "file_path": "/mnt/300 (2006) (2160p BluRay x265 HEVC 10bit HDR AAC 7.1 Tigole)/300 (2006) (2160p BluRay x265 10bit HDR Tigole)_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjc4OTc0ODgwNV5BMl5BanBnXkFtZTcwNjM1ODE0MQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Citizen Kane",
+        "file_path": "/mnt/Citizen Kane (1941) Criterion (1080p BluRay x265 HEVC 10bit AAC 1.0 Tigole)/Citizen Kane (1941) Criterion (1080p BluRay x265 10bit Tigole)_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Dont Look Up",
+        "file_path": "/mnt/Dont Look Up/Don.t.Look.Up.2021.iTA-ENG.WEBDL.2160p.HDR.x265-CYBER_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BZjcwZjY3NjAtNzkxZS00NmFjLTg1OGYtODJmMThhY2UwMTc5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Gladiator",
+        "file_path": "/mnt/Gladiator.2000.EXTENDED.2160p.UHD.BluRay.X265-IAMABLE/Gladiator.2000.EXTENDED.2160p.UHD.BluRay.X265-IAMABLE_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "1917",
+        "file_path": "/mnt/1917.2019.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ/1917.2019.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg"
+    },
+    {
+        "title": "All.Quiet.on.the.Western.Front",
+        "file_path": "/mnt/All.Quiet.on.the.Western.Front.2022.GERMAN.1080p.NF.WEBRip.DDP5.1.Atmos.x264-SMURF/All.Quiet.on.the.Western.Front.2022.1080p.NF.WEB-DL.DUAL.DDP5.1.Atmos.H.264-SMURF_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzM4ZDJhYjYtZGY5Ny00NTk0LWI4ZTYtNjczZDFiMGI2ZjEzXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Fury",
+        "file_path": "/mnt/Fury.2014.Multi.UHD.Bluray.2160p.x265.HDR.Atmos.7.1-DTOne/Fury.2014.Multi.UHD.Bluray.2160p.x265.HDR.Atmos.7.1-DTOne_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjA4MDU0NTUyN15BMl5BanBnXkFtZTgwMzQxMzY4MjE@._V1_.jpg"
+    },
+    {
+        "title": "2001.A.Space.Odyssey",
+        "file_path": "/mnt/2001.A.Space.Odyssey.1968.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT/2001.A.Space.Odyssey.1968.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+        "title": "American.History.X",
+        "file_path": "/mnt/American.History.X.1998.PROPER.1080p.BluRay.x264-SADPANDA[rarbg]/American.History.X.1998.PROPER.1080p.BluRay.x264-SADPANDA_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BZTJhN2FkYWEtMGI0My00YWM4LWI2MjAtM2UwNjY4MTI2ZTQyXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg"
+    },
+    {
+        "title": "American.Psycho",
+        "file_path": "/mnt/American.Psycho.2000.UNCUT.2160p.UHD.BluRay.x265-WhiteRhino/American.Psycho.2000.UNCUT.2160p.UHD.BluRay.x265-WhiteRhino_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "title": "Clockwork Orange",
+        "file_path": "/mnt/Clockwork Orange (Remux)/Clockwork Orange (Remux)_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_.jpg"
+    },
+    {
+        "title": "The.Silence.of.the.Lambs",
+        "file_path": "/mnt/The.Silence.of.the.Lambs.1991.REMASTERED.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-FGT_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    },
+    {
+        "title": "Fight Club",
+        "file_path": "/mnt/Fight Club.1999.BDRip.2160p.UHD.SDR.Eng.DTS-HD.MA.DD5.1.gerald99/Movie and Sample/Fight Club_converted.mp4",
+        "image": "https://m.media-amazon.com/images/M/MV5BODQ0OWJiMzktYjNlYi00MzcwLThlZWMtMzRkYTY4ZDgxNzgxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+        "title": "",
+        "file_path": "/mnt/",
+        "image": ""
+    },
+    {
+        "title": "t",
+        "poster": "https://media.istockphoto.com/id/1269898778/vector/sample-stamp-sample-square-grunge-sign-label.jpg?s=1024x1024&w=is&k=20&c=apNgKTH5DmJAnfLVt1toFjwftrf4SNrPLOKMd3wPs8M=",
+        "file_path": "/mnt/t/SKRILLEX LIVE @ WE LOVE GREEN 2023 _ _Right In_-(1080p).mp4"
+    },
+    {
+        "title": "DIEGO",
+        "poster": "https://www.google.es/search?sca_esv=568211807&sxsrf=AM9HkKlR8115MJuSKx0Y5KnEsE8zHudWQQ:1695656673340&q=hola&tbm=isch&source=lnms&sa=X&ved=2ahUKEwirjbOtjcaBAxWqT6QEHXFLCWkQ0pQJegQIChAB&biw=1358&bih=692&dpr=1#imgrc=hYNxKuq6lXCKYM",
+        "file_path": "/mnt/DIEGO/Snapchat-1189188350.mp4"
+    },
+    {
+        "title": "Polla",
+        "poster": "https://previews.123rf.com/images/sval/sval2011/sval201100106/159037203-una-polla-gris-aislada-de-fondo-blanco-sesi%C3%B3n-de-estudio.jpg",
+        "file_path": "/mnt/Polla/Joker.mp4"
+    }
 ]
