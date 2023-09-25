@@ -148,7 +148,7 @@ def upload_movie(request):
 
                     movies_list.append({
                         'title': movie_name,
-                        'poster': form.cleaned_data['image_url'],
+                        'image': form.cleaned_data['image_url'],
                         'file_path': file_path
                     })
 
