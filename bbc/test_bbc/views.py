@@ -160,7 +160,7 @@ def upload_movie(request):
                 json_file.truncate()
 
             # Redirect to a success page or the home page
-            return redirect('home')
+            return redirect('index')
     else:
         form = MovieUploadForm()
     return render(request, 'upload.html', {'form': form})
