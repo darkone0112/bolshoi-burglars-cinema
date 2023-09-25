@@ -134,15 +134,29 @@ def upload_movie(request):
                     destination.write(chunk)
 
             # Update the JSON file
-            with open('/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/json', 'r+') as json_file:
+            with open('/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/json/movies.json', 'r+') as json_file:
                 data = json.load(json_file)
-                data['movies'].append({
+                
+                # Ensure the data structure is correct
+                if isinstance(data, list):
+                    movies_list = data
+                elif 'movies' in data:
+                    movies_list = data['movies']
+                else:
+                    data['movies'] = []
+                    movies_list = data['movies']
+
+                movies_list.append({
                     'title': movie_name,
                     'poster': form.cleaned_data['image_url'],
                     'file_path': file_path
                 })
+
                 json_file.seek(0)
-                json.dump(data, json_file, indent=4)
+                if isinstance(data, list):
+                    json.dump(movies_list, json_file, indent=4)
+                else:
+                    json.dump(data, json_file, indent=4)
                 json_file.truncate()
 
             # Redirect to a success page or the home page
@@ -150,4 +164,5 @@ def upload_movie(request):
     else:
         form = MovieUploadForm()
     return render(request, 'upload.html', {'form': form})
+
 
