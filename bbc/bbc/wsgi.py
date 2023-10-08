@@ -12,7 +12,7 @@ import sys
 
 from django.core.wsgi import get_wsgi_application
 
-sys.path.insert(0, '/home/darkone0112/bolshoi-burglars-cinema/bbc')
+sys.path.insert(0, '/home/darkone0112/bolshoi-burglars-cinema')
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bbc.settings')
 
