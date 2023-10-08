@@ -1,4 +1,4 @@
-#!/home/darkone0112/bolshoi-burglars-cinema/bbc/bbc_venv/bin/python3
+#!/home/darkone0112/bolshoi-burglars-cinema/bbc/bbc_venv/bin/python3.10
 # -*- coding: utf-8 -*-
 import re
 import sys
