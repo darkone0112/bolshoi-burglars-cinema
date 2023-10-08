@@ -132,8 +132,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "test_bbc/static"),"/home/darkone0112/Django Unchained (2012) [1080p]", "/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/templates"]
+STATIC_URL = '"/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/static'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/static"),"/home/darkone0112/Django Unchained (2012) [1080p]", "/home/darkone0112/bolshoi-burglars-cinema/bbc/test_bbc/templates"]
 
 
 
