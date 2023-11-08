@@ -41,7 +41,7 @@ LOGGING = {
 }
 
 
-ALLOWED_HOSTS = ['192.168.1.207', '79.116.28.230']
+ALLOWED_HOSTS = ['192.168.1.207', '79.116.28.230', '79.116.0.155']
 
 
 # Application definition
