@@ -298,5 +298,10 @@
         "title": "",
         "file_path": "/mnt/",
         "image": ""
+    },
+    {
+        "title": "test",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Rainbow_flag_and_blue_skies.jpg",
+        "file_path": "/mnt/test/Escape From Tarkov 2024.01.21 - 19.12.16.02.DVR.mp4"
     }
 ]
